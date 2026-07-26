@@ -41,14 +41,14 @@
 <tr>
 <td width="50%" align="center">
 
-<a href="https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend"><img alt="Backend repository" src="https://img.shields.io/badge/⚙️_Backend_Repository-181717?style=for-the-badge&logo=github"></a>
+<a href="[https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend/tree/dev-deploy)"><img alt="Backend repository" src="https://img.shields.io/badge/⚙️_Backend_Repository-181717?style=for-the-badge&logo=github"></a>
 
 <sub>Nx monorepo · 13 apps · NestJS gateway<br>gRPC mesh + 4 Python ML services</sub>
 
 </td>
 <td width="50%" align="center">
 
-<a href="https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend"><img alt="Frontend repository" src="https://img.shields.io/badge/🖥️_Frontend_Repository-181717?style=for-the-badge&logo=github"></a>
+<a href="[https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend/tree/dev)"><img alt="Frontend repository" src="https://img.shields.io/badge/🖥️_Frontend_Repository-181717?style=for-the-badge&logo=github"></a>
 
 <sub>Next.js 16 analytics dashboard · SSE pipelines<br>SHAP &amp; KaTeX explainability</sub>
 
