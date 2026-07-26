@@ -14,8 +14,8 @@ This project explores the application of modern software engineering and machine
 
 | Repository | Description | Stack |
 |------------|-------------|-------|
-| [Backend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend) | Microservices backend handling data ingestion, sentiment analysis, and API services | NestJS · Kafka · gRPC · FAISS |
-| [Frontend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend) | Web application for visualising market data and insights | Next.js · TypeScript · Tailwind CSS · Zustand |
+| [Backend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend/tree/dev-deploy) | Microservices backend handling data ingestion, sentiment analysis, and API services | NestJS · Kafka · gRPC · FAISS |
+| [Frontend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend/tree/dev) | Web application for visualising market data and insights | Next.js · TypeScript · Tailwind CSS · Zustand |
 
 ## Key Features
 
