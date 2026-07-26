@@ -37,25 +37,6 @@
 
 <br>
 
-<table>
-<tr>
-<td width="50%" align="center">
-
-<a href="[https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend/tree/dev-deploy)"><img alt="Backend repository" src="https://img.shields.io/badge/⚙️_Backend_Repository-181717?style=for-the-badge&logo=github"></a>
-
-<sub>Nx monorepo · 13 apps · NestJS gateway<br>gRPC mesh + 4 Python ML services</sub>
-
-</td>
-<td width="50%" align="center">
-
-<a href="[https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend/tree/dev)"><img alt="Frontend repository" src="https://img.shields.io/badge/🖥️_Frontend_Repository-181717?style=for-the-badge&logo=github"></a>
-
-<sub>Next.js 16 analytics dashboard · SSE pipelines<br>SHAP &amp; KaTeX explainability</sub>
-
-</td>
-</tr>
-</table>
-
 <p>
 <img alt="Services" src="https://img.shields.io/badge/Microservices-13-7c3aed?style=flat-square">
 <img alt="Models" src="https://img.shields.io/badge/ML_Models-7_trained-0ea5e9?style=flat-square">
@@ -68,6 +49,44 @@
 </p>
 
 </div>
+
+---
+
+## 📦 Repositories
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [⚙️ Backend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend) · `dev-deploy`
+
+An **Nx monorepo of 13 applications**: REST API gateway, four gRPC microservices, Kafka email consumer, PayHere billing, an SSE orchestration service, **four Python ML inference services**, and the YAML-driven annual-report ETL. Two Docker Compose profiles — 9 containers for core dev, 14 for the full platform. CI/CD to EC2.
+
+`NestJS 11` `TypeScript 5.9` `Nx 21.5` `Python 3.11` `FastAPI` `Flask` `gRPC` `Kafka 7.5` `MongoDB 7` `Redis` `PostgreSQL` `FAISS` `XGBoost` `LightGBM` `CatBoost` `SHAP` `spaCy` `Docker` `GitHub Actions`
+
+</td>
+<td width="50%" valign="top">
+
+### [🖥️ Frontend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend) · `dev`
+
+A **Next.js 16 App Router** analytics dashboard. Live market data via server-side CORS proxies, SSE-streamed AI pipelines, SHAP visualisations, KaTeX-documented feature engineering, printed model decision trees. 58 shadcn/ui primitives, 35 domain components, 5 Zustand stores, **40 Vitest test files**. Full light/dark parity, mobile-first.
+
+`Next.js 16` `React 19` `TypeScript 5` `Tailwind CSS 4.1` `shadcn/ui` `Radix UI` `Zustand 5` `Recharts` `Framer Motion` `KaTeX` `React Hook Form` `Zod` `Vitest`
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="16.6%"><h3>13</h3><sub>Nx applications</sub></td>
+<td align="center" width="16.6%"><h3>7</h3><sub>Trained models</sub></td>
+<td align="center" width="16.6%"><h3>80</h3><sub>REST endpoints</sub></td>
+<td align="center" width="16.6%"><h3>62</h3><sub>Test files</sub></td>
+<td align="center" width="16.6%"><h3>14</h3><sub>Docker containers</sub></td>
+<td align="center" width="16.6%"><h3>~240</h3><sub>Annual reports in ETL</sub></td>
+</tr>
+</table>
 
 ---
 
@@ -304,44 +323,6 @@ graph TB
 ```
 
 **Four transports, deliberately.** gRPC for the internal NestJS mesh (protobuf contracts make refactors safe) · HTTP/JSON at the Python boundary (an ML service shouldn't need a gRPC toolchain to be testable with `curl`) · Kafka for email (sign-up must never fail because SMTP is down) · SSE for long-running analysis (a 40-second wait becomes visible progress, with no WebSocket infrastructure).
-
----
-
-## 📦 Repositories
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [⚙️ Backend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Backend) · `dev-deploy`
-
-An **Nx monorepo of 13 applications**: REST API gateway, four gRPC microservices, Kafka email consumer, PayHere billing, an SSE orchestration service, **four Python ML inference services**, and the YAML-driven annual-report ETL. Two Docker Compose profiles — 9 containers for core dev, 14 for the full platform. CI/CD to EC2.
-
-`NestJS 11` `TypeScript 5.9` `Nx 21.5` `Python 3.11` `FastAPI` `Flask` `gRPC` `Kafka 7.5` `MongoDB 7` `Redis` `PostgreSQL` `FAISS` `XGBoost` `LightGBM` `CatBoost` `SHAP` `spaCy` `Docker` `GitHub Actions`
-
-</td>
-<td width="50%" valign="top">
-
-### [🖥️ Frontend](https://github.com/Research-SLIIT/Final-Year-Research_CSE-25-26J-445-Frontend) · `dev`
-
-A **Next.js 16 App Router** analytics dashboard. Live market data via server-side CORS proxies, SSE-streamed AI pipelines, SHAP visualisations, KaTeX-documented feature engineering, printed model decision trees. 58 shadcn/ui primitives, 35 domain components, 5 Zustand stores, **40 Vitest test files**. Full light/dark parity, mobile-first.
-
-`Next.js 16` `React 19` `TypeScript 5` `Tailwind CSS 4.1` `shadcn/ui` `Radix UI` `Zustand 5` `Recharts` `Framer Motion` `KaTeX` `React Hook Form` `Zod` `Vitest`
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center" width="16.6%"><h3>13</h3><sub>Nx applications</sub></td>
-<td align="center" width="16.6%"><h3>7</h3><sub>Trained models</sub></td>
-<td align="center" width="16.6%"><h3>80</h3><sub>REST endpoints</sub></td>
-<td align="center" width="16.6%"><h3>62</h3><sub>Test files</sub></td>
-<td align="center" width="16.6%"><h3>14</h3><sub>Docker containers</sub></td>
-<td align="center" width="16.6%"><h3>~240</h3><sub>Annual reports in ETL</sub></td>
-</tr>
-</table>
 
 ---
 
