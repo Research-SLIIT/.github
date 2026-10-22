@@ -37,7 +37,7 @@
 
 <br>
 
-<p>
+<!-- <p>
 <img alt="Services" src="https://img.shields.io/badge/Microservices-13-7c3aed?style=flat-square">
 <img alt="Models" src="https://img.shields.io/badge/ML_Models-7_trained-0ea5e9?style=flat-square">
 <img alt="Containers" src="https://img.shields.io/badge/Docker-14_containers-2496ED?style=flat-square&logo=docker&logoColor=white">
@@ -46,7 +46,7 @@
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white">
 <img alt="Python" src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white">
 <img alt="Kafka" src="https://img.shields.io/badge/Kafka-7.5-231F20?style=flat-square&logo=apachekafka&logoColor=white">
-</p>
+</p> -->
 
 </div>
 
