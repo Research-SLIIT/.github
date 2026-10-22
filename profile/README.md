@@ -35,7 +35,6 @@
 **Final Year Research Project · CSE-25-26J-445**
 *Sri Lanka Institute of Information Technology — Faculty of Computing · 2025/26*
 
-<br>
 
 <!-- <p>
 <img alt="Services" src="https://img.shields.io/badge/Microservices-13-7c3aed?style=flat-square">
@@ -50,7 +49,6 @@
 
 </div>
 
----
 
 ## 📦 Repositories
 
